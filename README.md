@@ -27,6 +27,10 @@
 ## 6-> Undoing Staged Files
 `git reset HEAD <file>`  
 ### where HEAD can be your Hash number (First Four Digits will do fine) or your Branch Name  
+## 7-> Undoing Commited Files
+`git revert HEAD`  
+###  where HEAD can be your Hash number (First Four Digits will do fine) or your Branch Name  
+
   
 
  
