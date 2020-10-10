@@ -23,6 +23,10 @@
 ## 4-> Get Information about Your Commits
 `git log --pretty=oneline`  
 ## 5-> Move to Your Desired Commit or Branch
-`git checkout hash/branch`     
+`git checkout hash/branch` 
+## 6-> Undoing Staged Files
+`git reset HEAD <file>`  
+### where HEAD can be your Hash number (First Four Digits will do fine) or your Branch Name  
+  
 
  
