@@ -30,6 +30,9 @@
 ## 7-> Undoing Commited Files
 `git revert HEAD`  
 ###  where HEAD can be your Hash number (First Four Digits will do fine) or your Branch Name  
+## 8-> Pulling changes Locally from a Remote Repo
+`git pull origin [branchName]`  
+### where origin can be replaced by the respective remote pointer  
 
   
 
