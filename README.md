@@ -20,5 +20,7 @@
 ### Changes from the Main remote are pulled Locally  
 `git push origin`    
 ### Changes are pushed to the Forked Remote Repo !  
+# Get Information about Your Commits
+`git log --pretty=oneline`  
 
  
