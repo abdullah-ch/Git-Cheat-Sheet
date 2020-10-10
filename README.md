@@ -1,6 +1,6 @@
 # Git-Cheat-Sheet
 # 1-> Creating a Repository
-``git init  ``     
+```git init  ```     
 `git remote add origin [repoLink]   `   
 `git remote -v  `   
 `git add .   `  
