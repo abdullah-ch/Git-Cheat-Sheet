@@ -7,3 +7,7 @@
 `git commit -m "First commit“  `   
 `git push origin master  `  
  # 2 Creating a Pull Request
+ Fork the desired the Repo  
+` git clone url`  
+
+ 
