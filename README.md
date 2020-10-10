@@ -11,7 +11,7 @@
 `git clone [forkedRepoLink]`    
 ### Do your Contribution  
 `git add .`  
-`git commit -m "your message"`
+`git commit -m "your message"`  
 `git push origin [branchName]`  
 # 3-> Getting Updates from the Main Repo to Your Forked Repo  
 `git remote add upstream [originalRepoLink]`  
