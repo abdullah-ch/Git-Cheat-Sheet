@@ -20,7 +20,9 @@
 ### Changes from the Main remote are pulled Locally  
 `git push origin`    
 ### Changes are pushed to the Forked Remote Repo !  
-# Get Information about Your Commits
+# 4-> Get Information about Your Commits
 `git log --pretty=oneline`  
+# 5-> Move to Your Desired Commit or Branch
+`git checkout hash/branch`     
 
  
