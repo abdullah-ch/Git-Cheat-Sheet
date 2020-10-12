@@ -1,4 +1,7 @@
 # Git-Cheat-Sheet
+## 0-> Configuring the Bash Terminal
+`git config --global user.name “Your Name”`    
+`git config --global user.email “Youremail@anything.com”`    
 ## 1-> Creating a Repository
 `git init  `     
 `git remote add origin [repoLink]   `   
