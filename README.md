@@ -4,7 +4,8 @@
 `git config --global user.email “Youremail@anything.com”`    
 ## 1-> Creating a Repository
 `git init  `     
-`git remote add origin [repoLink]   `   
+`git remote add origin [repoLink]   `  
+### Origin works like a pointer to the repoLink, making the referencing easier 
 `git remote -v  `   
 `git add .   `  
 `git commit -m "your message"  `   
