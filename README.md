@@ -1,4 +1,7 @@
 # Git-Cheat-Sheet
+## Git Bash Terminal  
+[Download the Terminal from here](https://git-scm.com/downloads)  
+
 ## 0-> Configuring the Bash Terminal
 `git config --global user.name “Your Name”`    
 `git config --global user.email “Youremail@anything.com”`    
