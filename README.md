@@ -11,7 +11,7 @@
 ### Origin works like a pointer to the repoLink, making the referencing easier 
 `git remote -v  `   
 `git add .   `  
-`git commit -m "your message"  `   
+`git commit -m "[your message]"  `   
 `git push origin [branchName]  `  
  ## 2-> Creating a Pull Request
 ### Fork the desired Repo    
