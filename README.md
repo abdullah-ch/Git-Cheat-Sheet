@@ -40,6 +40,9 @@
 ## 8-> Pulling changes Locally from a Remote Repo
 `git pull origin [branchName]`  
 ### Where the origin can be replaced by the respective remote pointer.  
+## 9-> View the state of your Staging Area and Changes in your Directory
+`git status`    
+  
 
   
 
