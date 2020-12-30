@@ -44,7 +44,7 @@
 `git status`    
 ### 10-> View the History of your Commits along with their Hash Codes of the Repo  
 `git log --pretty=oneline`  
-## Some Question and Answers !!
+## Some Questions and Answers !!
 ### I have pushed some commit/s that I shouldn't. Now, I want to remove them locally and remotely. I want my History on Github to be cleared of those wrong commits. What should I do ??  
 #### First, see your commits, understand them and select how many commit/s you want to delete.  
 `git log --pretty=oneline`    
