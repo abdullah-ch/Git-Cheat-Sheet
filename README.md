@@ -48,9 +48,9 @@
 ### I have pushed some commit/s that I shouldn't. Now, I want to remove them locally and remotely. I want my History on Github to be cleared of those wrong commits. What should I do ??  
 #### First, see your commits, understand them and select how many commit/s you want to delete.  
 `git log --pretty=oneline`    
-#### Now, choose a number of commits you want to change i.e lets say recent 4 commits and delete them locally. Type the following command and simply remove the commits in your text editor(simply delete the line) and save them
+#### Now, choose a number of commits you want to change i.e lets say recent 4 commits and delete them locally. Type the following command and simply remove the commits in your text editor(simply delete the line) and save the file  
 `git rebase -i HEAD~4`    
-#### Check your commits tree by using git log command and become sure that you're commits have been removed locally. Once, you're certain, push the remaing commits.
+#### Check your commit tree by using git log command and become sure that your commits have been removed locally. Once, you're certain, push the remaining commits.
 `git push origin branchName --force`  
 #### Your History will be altered and the commits will be removed locally as well as remotely  
   
