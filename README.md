@@ -2,10 +2,10 @@
 ## Git Bash Terminal  
 [Download the Terminal from here](https://git-scm.com/downloads)  
 
-## 0-> Configuring the Bash Terminal
+### 0-> Configuring the Bash Terminal
 `git config --global user.name “Your Name”`    
 `git config --global user.email “Youremail@anything.com”`    
-## 1-> Creating a Repository
+#### 1-> Creating a Repository
 `git init  `     
 `git remote add origin [repoLink]   `  
 ### Origin works like a pointer to the repoLink, making the referencing easier 
