@@ -42,6 +42,8 @@
 ### Where the origin can be replaced by the respective remote pointer.  
 ## 9-> View the state of your Staging Area and Changes in your Directory
 `git status`    
+## 10-> View the History of your Commits along with their Hash Codes of your Repo  
+`git log --pretty=oneline`  
   
 
   
