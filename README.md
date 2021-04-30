@@ -52,7 +52,7 @@
 `git rebase -i HEAD~4`    
 #### Check your commit tree by using git log command and become sure that your commits have been removed locally. Once, you're certain, push the remaining commits.
 `git push origin branchName --force`  
-#### Your History will be altered and the commits will be removed remotely as well as locally      
+#### Your History will be altered and the commits will be removed remotely as well as locally.  
   
 
   
