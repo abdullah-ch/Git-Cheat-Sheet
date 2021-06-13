@@ -45,14 +45,17 @@
 ### 10-> View the History of your Commits along with their Hash Codes of the Repo  
 `git log --pretty=oneline`  
 ## Some Questions and Answers !!
-### I have pushed some commit/s that I shouldn't. Now, I want to remove them locally and remotely. I want my History on Github to be cleared of those wrong commits. What should I do ??  
+### Q1-> I have pushed some commit/s that I shouldn't. Now, I want to remove them locally and remotely. I want my History on Github to be cleared of those wrong commits. What should I do ??  
 #### First, see your commits, understand them and select how many commit/s you want to delete.  
 `git log --pretty=oneline`    
 #### Now, choose a number of commits you want to change i.e lets say recent 4 commits and delete them locally. Type the following command and simply remove the commits in your text editor(simply delete the line) and save the file  
 `git rebase -i HEAD~4`    
 #### Check your commit tree by using git log command and become sure that your commits have been removed locally. Once, you're certain, push the remaining commits.
 `git push origin branchName --force`  
-#### Your History will be altered and the commits will be removed remotely as well as locally         
+#### Your History will be altered and the commits will be removed remotely as well as locally    
+### Q2-> How can I pull from a remote branch into my local branch ?
+`git checkout --track origin/[branchName]`
+#### This command will create a branch of the same name of the remote branch that you're going to pull from   
   
 
   
