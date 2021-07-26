@@ -53,7 +53,7 @@
 #### Check your commit tree by using git log command and become sure that your commits have been removed locally. Once, you're certain, push the remaining commits.
 `git push origin branchName --force`  
 #### Your History will be altered and the commits will be removed remotely as well as locally    
-### Q2-> How can I pull a remote branch into my local branch ?
+### Q2-> How can I pull a certain branch from GitHub ?
 `git fetch origin`  
 `git branch -f [branchName]/[branchName]`  
 `git checkout branchName`  
