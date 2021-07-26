@@ -54,7 +54,9 @@
 `git push origin branchName --force`  
 #### Your History will be altered and the commits will be removed remotely as well as locally    
 ### Q2-> How can I pull a remote branch into my local branch ?
-`git checkout --track origin/[branchName]`
+`git fetch origin`  
+`git branch -f [branchName]/[branchName]`  
+`git checkout branchName`  
 #### This command will create a branch of the same name of the remote branch that you're going to pull from   
   
 
