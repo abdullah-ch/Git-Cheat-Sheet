@@ -47,6 +47,10 @@
 
 ### 11-> View the difference between branches    
 `git diff --color thatBranchNameYouWantToCompare`    
+
+### 12-> Delete a branch remotely    
+`git push origin --delete <branch>`  
+
 ## Some Questions and Answers !!
 ### Q1-> I have pushed some commit/s that I shouldn't. Now, I want to remove them locally and remotely. I want my History on Github to be cleared of those wrong commits. What should I do ??  
 #### First, see your commits, understand them and select how many commit/s you want to delete.  
