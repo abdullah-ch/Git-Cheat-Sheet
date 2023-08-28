@@ -57,7 +57,7 @@
 ### 13-> Unstage your changes and reset the working directory
 `git reset --hard`
 
-### 13-> Revert back to the last commit
+### 13-> Revert back to the last commit (Undo Last Commit)  
 `git reset HEAD~1` 
 
 **OR**  
