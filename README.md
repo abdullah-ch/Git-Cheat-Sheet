@@ -51,6 +51,20 @@
 ### 12-> Delete a branch remotely    
 `git push origin --delete <branch>`  
 
+### 13-> Unstage your changes
+`git reset`
+
+### 13-> Unstage your changes and reset the working directory
+`git reset --hard`
+
+### 13-> Revert back to the last commit
+`git reset HEAD~1` 
+
+**OR**  
+
+`git revert [last-commit-hash]` (This will create a new commit for reverted changes)
+
+
 ## Some Questions and Answers !!
 ### Q1-> I have pushed some commit/s that I shouldn't. Now, I want to remove them locally and remotely. I want my History on Github to be cleared of those wrong commits. What should I do ??  
 #### First, see your commits, understand them and select how many commit/s you want to delete.  
